@@ -28,14 +28,14 @@
     "node": ">=7.0.0"
   },
   "dependencies": {
-    "ajv": "^5.0.1",
-    "auth0-authz-rules-api": "^1.0.8",
-    "webtask-runtime": "^1.6.0"
+    "ajv": "^5.5.2",
+    "auth0-authz-rules-api": "git+https://github.com/andrewkrug/auth0-authz-rules-api.git",
+    "webtask-runtime": "^1.7.0"
   },
   "devDependencies": {
     "chai": "^3.5.0",
     "dirty-chai": "^1.2.2",
-    "mocha": "^3.4.1",
-    "standard": "^10.0.2"
+    "mocha": "^3.5.3",
+    "standard": "^10.0.3"
   }
 }
